@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-POS" class="navigator-link">
+              <span class="suite-name border-passed">POS</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-POS" class="navigator-link ">
+                    <span>E:\Shibigha Learnings\javatest1\src\POS\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-POS" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-POS" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-POS" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-POS" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-POS" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-POS" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-POS" class="hide-methods passed suite-POS"> (hide)</a> <!-- hide-methods passed suite-POS -->
+                      <a href="#" panel-name="suite-POS" class="show-methods passed suite-POS"> (show)</a> <!-- show-methods passed suite-POS -->
+                    </span>
+                    <div class="method-list-content passed suite-POS">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.ProductTC" class="method navigator-link" hash-for-method="ProductPopupDisplayTest">ProductPopupDisplayTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.ProductTC" class="method navigator-link" hash-for-method="addProductFieldsTest">addProductFieldsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.StoreTC" class="method navigator-link" hash-for-method="addStoreClickTest">addStoreClickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.StoreTC" class="method navigator-link" hash-for-method="addStoreFieldsTest">addStoreFieldsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.StoreTC" class="method navigator-link" hash-for-method="addStoreSubmitTest">addStoreSubmitTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.HomePageTC" class="method navigator-link" hash-for-method="cancelPopupTest">cancelPopupTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.HomePageTC" class="method navigator-link" hash-for-method="cancelPopupTest1">cancelPopupTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.ProductTC" class="method navigator-link" hash-for-method="clickProductMenuTest">clickProductMenuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.ProductTC" class="method navigator-link" hash-for-method="downloadExcelTest">downloadExcelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.HomePageTC" class="method navigator-link" hash-for-method="homepagetest">homepagetest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.LoginTC" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.LoginTC" class="method navigator-link" hash-for-method="loginTestWithWrongPassword">loginTestWithWrongPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.LoginTC" class="method navigator-link" hash-for-method="passwordFieldIsDisplayed">passwordFieldIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.LoginTC" class="method navigator-link" hash-for-method="passwordMasked">passwordMasked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.StoreTC" class="method navigator-link" hash-for-method="performStoreListFilter">performStoreListFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.HomePageTC" class="method navigator-link" hash-for-method="posMenuTest">posMenuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.ProductTC" class="method navigator-link" hash-for-method="readExcelText">readExcelText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.ProductTC" class="method navigator-link" hash-for-method="scrollPage">scrollPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.ProductTC" class="method navigator-link" hash-for-method="searchTest">searchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.ProductTC" class="method navigator-link" hash-for-method="stockSubmitClickTest">stockSubmitClickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.StoreTC" class="method navigator-link" hash-for-method="storeClickTest">storeClickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.HomePageTC" class="method navigator-link" hash-for-method="storeClickedTest">storeClickedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.StoreTC" class="method navigator-link" hash-for-method="storeNameSearchTest">storeNameSearchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.HomePageTC" class="method navigator-link" hash-for-method="submitPopupTest">submitPopupTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.HomePageTC" class="method navigator-link" hash-for-method="submitPopupTest1">submitPopupTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.ProductTC" class="method navigator-link" hash-for-method="supplierSelectedTest">supplierSelectedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.ProductTC" class="method navigator-link" hash-for-method="typeSelectedTest">typeSelectedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-POS" title="com.qa.test.LoginTC" class="method navigator-link" hash-for-method="userIdFieldIsDisplayed">userIdFieldIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-POS -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-POS" class="panel POS">
+          <div class="suite-POS-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.test.StoreTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStoreClickTest">
+                  </a> <!-- addStoreClickTest -->
+                  <span class="method-name">addStoreClickTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStoreFieldsTest">
+                  </a> <!-- addStoreFieldsTest -->
+                  <span class="method-name">addStoreFieldsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStoreSubmitTest">
+                  </a> <!-- addStoreSubmitTest -->
+                  <span class="method-name">addStoreSubmitTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="performStoreListFilter">
+                  </a> <!-- performStoreListFilter -->
+                  <span class="method-name">performStoreListFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storeClickTest">
+                  </a> <!-- storeClickTest -->
+                  <span class="method-name">storeClickTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storeNameSearchTest">
+                  </a> <!-- storeNameSearchTest -->
+                  <span class="method-name">storeNameSearchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-POS-class-passed -->
+          <div class="suite-POS-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.test.LoginTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTestWithWrongPassword">
+                  </a> <!-- loginTestWithWrongPassword -->
+                  <span class="method-name">loginTestWithWrongPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordFieldIsDisplayed">
+                  </a> <!-- passwordFieldIsDisplayed -->
+                  <span class="method-name">passwordFieldIsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordMasked">
+                  </a> <!-- passwordMasked -->
+                  <span class="method-name">passwordMasked</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userIdFieldIsDisplayed">
+                  </a> <!-- userIdFieldIsDisplayed -->
+                  <span class="method-name">userIdFieldIsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-POS-class-passed -->
+          <div class="suite-POS-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.test.ProductTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProductPopupDisplayTest">
+                  </a> <!-- ProductPopupDisplayTest -->
+                  <span class="method-name">ProductPopupDisplayTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductFieldsTest">
+                  </a> <!-- addProductFieldsTest -->
+                  <span class="method-name">addProductFieldsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickProductMenuTest">
+                  </a> <!-- clickProductMenuTest -->
+                  <span class="method-name">clickProductMenuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="downloadExcelTest">
+                  </a> <!-- downloadExcelTest -->
+                  <span class="method-name">downloadExcelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readExcelText">
+                  </a> <!-- readExcelText -->
+                  <span class="method-name">readExcelText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollPage">
+                  </a> <!-- scrollPage -->
+                  <span class="method-name">scrollPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest">
+                  </a> <!-- searchTest -->
+                  <span class="method-name">searchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stockSubmitClickTest">
+                  </a> <!-- stockSubmitClickTest -->
+                  <span class="method-name">stockSubmitClickTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="supplierSelectedTest">
+                  </a> <!-- supplierSelectedTest -->
+                  <span class="method-name">supplierSelectedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="typeSelectedTest">
+                  </a> <!-- typeSelectedTest -->
+                  <span class="method-name">typeSelectedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-POS-class-passed -->
+          <div class="suite-POS-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.test.HomePageTC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelPopupTest">
+                  </a> <!-- cancelPopupTest -->
+                  <span class="method-name">cancelPopupTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelPopupTest1">
+                  </a> <!-- cancelPopupTest1 -->
+                  <span class="method-name">cancelPopupTest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homepagetest">
+                  </a> <!-- homepagetest -->
+                  <span class="method-name">homepagetest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="posMenuTest">
+                  </a> <!-- posMenuTest -->
+                  <span class="method-name">posMenuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storeClickedTest">
+                  </a> <!-- storeClickedTest -->
+                  <span class="method-name">storeClickedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitPopupTest">
+                  </a> <!-- submitPopupTest -->
+                  <span class="method-name">submitPopupTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitPopupTest1">
+                  </a> <!-- submitPopupTest1 -->
+                  <span class="method-name">submitPopupTest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-POS-class-passed -->
+        </div> <!-- panel POS -->
+        <div panel-name="test-xml-POS" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Shibigha Learnings\javatest1\src\POS\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;POS&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.base.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;POSTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.test.LoginTC&quot;/&gt;
+      &lt;class name=&quot;com.qa.test.HomePageTC&quot;/&gt;
+      &lt;class name=&quot;com.qa.test.ProductTC&quot;/&gt;
+      &lt;class name=&quot;com.qa.test.StoreTC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- POSTest --&gt;
+&lt;/suite&gt; &lt;!-- POS --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-POS" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for POS</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">POSTest (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-POS" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for POS</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-POS" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for POS</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_POS');
+function tableData_POS() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'storeClickTest')
+data.setCell(0, 2, 'com.qa.test.StoreTC')
+data.setCell(0, 3, 5671);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addStoreFieldsTest')
+data.setCell(1, 2, 'com.qa.test.StoreTC')
+data.setCell(1, 3, 2984);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginTest')
+data.setCell(2, 2, 'com.qa.test.LoginTC')
+data.setCell(2, 3, 2913);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickProductMenuTest')
+data.setCell(3, 2, 'com.qa.test.ProductTC')
+data.setCell(3, 3, 2416);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'submitPopupTest')
+data.setCell(4, 2, 'com.qa.test.HomePageTC')
+data.setCell(4, 3, 2383);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'submitPopupTest1')
+data.setCell(5, 2, 'com.qa.test.HomePageTC')
+data.setCell(5, 3, 1609);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addProductFieldsTest')
+data.setCell(6, 2, 'com.qa.test.ProductTC')
+data.setCell(6, 3, 1433);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginTestWithWrongPassword')
+data.setCell(7, 2, 'com.qa.test.LoginTC')
+data.setCell(7, 3, 1190);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'storeClickedTest')
+data.setCell(8, 2, 'com.qa.test.HomePageTC')
+data.setCell(8, 3, 1175);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ProductPopupDisplayTest')
+data.setCell(9, 2, 'com.qa.test.ProductTC')
+data.setCell(9, 3, 963);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'addStoreSubmitTest')
+data.setCell(10, 2, 'com.qa.test.StoreTC')
+data.setCell(10, 3, 737);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'homepagetest')
+data.setCell(11, 2, 'com.qa.test.HomePageTC')
+data.setCell(11, 3, 672);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'stockSubmitClickTest')
+data.setCell(12, 2, 'com.qa.test.ProductTC')
+data.setCell(12, 3, 651);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'downloadExcelTest')
+data.setCell(13, 2, 'com.qa.test.ProductTC')
+data.setCell(13, 3, 601);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'posMenuTest')
+data.setCell(14, 2, 'com.qa.test.HomePageTC')
+data.setCell(14, 3, 551);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'addStoreClickTest')
+data.setCell(15, 2, 'com.qa.test.StoreTC')
+data.setCell(15, 3, 399);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'searchTest')
+data.setCell(16, 2, 'com.qa.test.ProductTC')
+data.setCell(16, 3, 369);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'storeNameSearchTest')
+data.setCell(17, 2, 'com.qa.test.StoreTC')
+data.setCell(17, 3, 214);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'cancelPopupTest')
+data.setCell(18, 2, 'com.qa.test.HomePageTC')
+data.setCell(18, 3, 205);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'cancelPopupTest1')
+data.setCell(19, 2, 'com.qa.test.HomePageTC')
+data.setCell(19, 3, 164);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'typeSelectedTest')
+data.setCell(20, 2, 'com.qa.test.ProductTC')
+data.setCell(20, 3, 135);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'performStoreListFilter')
+data.setCell(21, 2, 'com.qa.test.StoreTC')
+data.setCell(21, 3, 135);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'supplierSelectedTest')
+data.setCell(22, 2, 'com.qa.test.ProductTC')
+data.setCell(22, 3, 127);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'userIdFieldIsDisplayed')
+data.setCell(23, 2, 'com.qa.test.LoginTC')
+data.setCell(23, 3, 121);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'readExcelText')
+data.setCell(24, 2, 'com.qa.test.ProductTC')
+data.setCell(24, 3, 100);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'passwordFieldIsDisplayed')
+data.setCell(25, 2, 'com.qa.test.LoginTC')
+data.setCell(25, 3, 56);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'passwordMasked')
+data.setCell(26, 2, 'com.qa.test.LoginTC')
+data.setCell(26, 3, 37);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'scrollPage')
+data.setCell(27, 2, 'com.qa.test.ProductTC')
+data.setCell(27, 3, 8);
+window.suiteTableData['POS']= { tableData: data, tableDiv: 'times-div-POS'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <div id="times-div-POS">
+              </div> <!-- times-div-POS -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-POS" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for POS</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-POS" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-POS" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.test.LoginTC</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5307 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userIdFieldIsDisplayed</span>
+                <span class="method-start">5337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5465 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">passwordFieldIsDisplayed</span>
+                <span class="method-start">5467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5526 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">passwordMasked</span>
+                <span class="method-start">5527 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">5566 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTestWithWrongPassword</span>
+                <span class="method-start">5567 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">6759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">6760 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.test.HomePageTC</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">9677 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">performlogin</span>
+                <span class="method-start">14781 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">homepagetest</span>
+                <span class="method-start">18754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">posMenuTest</span>
+                <span class="method-start">19428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storeClickedTest</span>
+                <span class="method-start">19981 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">submitPopupTest</span>
+                <span class="method-start">21157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cancelPopupTest</span>
+                <span class="method-start">23543 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">submitPopupTest1</span>
+                <span class="method-start">23749 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cancelPopupTest1</span>
+                <span class="method-start">25360 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.test.ProductTC</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">25525 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">performlogin</span>
+                <span class="method-start">33078 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">clickProductMenuTest</span>
+                <span class="method-start">35972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">supplierSelectedTest</span>
+                <span class="method-start">38389 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">typeSelectedTest</span>
+                <span class="method-start">38517 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollPage</span>
+                <span class="method-start">38653 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">downloadExcelTest</span>
+                <span class="method-start">38663 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">readExcelText</span>
+                <span class="method-start">39268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest</span>
+                <span class="method-start">39370 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ProductPopupDisplayTest</span>
+                <span class="method-start">39740 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addProductFieldsTest</span>
+                <span class="method-start">40704 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">stockSubmitClickTest</span>
+                <span class="method-start">42138 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.test.StoreTC</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">42789 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">performlogin</span>
+                <span class="method-start">55069 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">storeClickTest</span>
+                <span class="method-start">58223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storeNameSearchTest</span>
+                <span class="method-start">63895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addStoreClickTest</span>
+                <span class="method-start">64110 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addStoreFieldsTest</span>
+                <span class="method-start">64511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addStoreSubmitTest</span>
+                <span class="method-start">67495 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">performStoreListFilter</span>
+                <span class="method-start">68235 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
